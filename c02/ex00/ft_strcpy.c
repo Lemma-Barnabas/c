@@ -1,5 +1,16 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strcpy.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: lbarnaba <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/09/25 12:38:53 by lbarnaba          #+#    #+#             */
+/*   Updated: 2022/09/25 12:41:12 by lbarnaba         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include<stdio.h>
-#include<string.h>
 
 char	*ft_strcpy(char *dest, char *src)
 {
@@ -14,11 +25,3 @@ char	*ft_strcpy(char *dest, char *src)
 	dest[i] = '\0';
 	return (dest);
 }
-
-int	main()
-	{
-		char src[] = "hellow";
-		char dest[] = "j";
-		printf("%s", ft_strcpy(dest, src));
-				}
-
