@@ -12,4 +12,4 @@ int	main(void)
 	str2 = "9elloo";
 	printf("c  : %d\n", strcmp(str1, str2));
 	printf("ft : %d\n", ft_strcmp(str1, str2));
-
+}

@@ -7,6 +7,8 @@ int main()
 {
 	char dest[]="helow";
 	char src[]="there";
+	unsigned int n=3;
 	
-	printf("%i", strlcat(dest,src,3));
+	printf("%d",ft_strlcat(dest,src,n));
+	printf("%lu", strlcat(dest,src,n));
 }
